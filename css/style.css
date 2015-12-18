@@ -4,43 +4,131 @@
 /* images */
 
 body {
-	background:url("../img/bg-yellow.png") no-repeat;
+	background:url("../img/placeholder_bg.jpg") no-repeat;
 	background-size: cover;
+	height: 100%;
 }
 
 .container {
-	width: 1200px;
+	width: 1170px;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+/* logo */
+
+.row {
+	margin-top: 20px;
 }
 
 .content {
-	margin-top: 10%;
-	margin-left: 5%;
+	top: 72px;
+	margin-left: 98px;
+	display: block;
+	position: relative;
 }
 
-h1 {
-	font-family: "Roboto", Arial, Helvetica, sans-serif;
-	font-weight: 900;
-	font-size: 72px;
-	font-color:black;
+#logo .rec
+{
+	width: 80px;
+	height: 14px;
+	background-color: #000;
+	display: inline-block;
+	position: absolute;
+	margin-top: 6px;
 }
 
-p {
-	font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-
-.subh-1 {
+#logo .caption-top {
+	font-size: 18px;
 	font-weight: 300;
-	font-size: 24px;
-	color: black;
-	letter-spacing: 3px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #000;
+	margin-left: 100px;
 }
 
-.bottom {
-	margin-top: 40%;
+#logo .main-txt {
+	font-size: 70px;
+	font-weight: bold;
+	line-height: 74px;
+	color: #000;
 }
 
-.larg {
-	font-size: 34px;
-	color: black;
-	font-style: 300;
+#logo .caption-bottom {
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	color: #000;
+
+}
+
+/* Time & Place */
+
+.date-n-place {
+	font-size: 26px;
+	font-weight: bold;
+	color: #000;
+}
+
+.sponsor-cat-small {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+
+.date-container {
+	margin-top: 60px;
+}
+
+/* Images */
+ .img-dentons {
+ 	width: 194px;
+	height: 37px;
+	display: inline-block;
+	margin-left: 10px;
+ }
+
+.temp {
+	display: block;
+	margin-top: 370px;
+	margin-left: 98px;
+}
+
+/* Mobile */
+@media (min-width: 768px;) {
+	.container {
+		width: 750px;
+	}
+	body {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (min-width: 400px;) {
+	.container {
+		width: 400px;
+	}
+	body {
+		height: 100%;
+	}
+
+	.row {
+		margin-top: 10px;
+	}
+
+	.content {
+		top:20px;
+		width: 300px;
+	}
+	#logo .main-txt {
+		font-size: 20px;
+	}
+
 }
