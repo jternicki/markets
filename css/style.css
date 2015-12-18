@@ -1,0 +1,55 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+/* images */
+
+.hero { 
+	background: url(img/bg-yellow.png) center center no-repeat; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	background-attachment: fixed; 
+	width:100%;
+	position: absolute;
+	top: 0;
+	left: 0; 
+	overflow:hidden;
+	z-index: 0;
+	}
+
+.container {
+	height: 100%;
+}
+
+
+.rec {
+	height: 10px;
+	width: 50px;
+	color:black;
+	display: block;
+}
+
+.logo-t {
+
+	max-width: 500px;
+	position: relative;
+	margin-top: 10%;
+	margin-left: 5%;
+	z-index: 1;
+
+}
+
+
+h1 {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 72px;
+	font-weight: 900;
+}
+
+.subh {
+	font-family: font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
